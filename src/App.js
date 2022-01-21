@@ -1,11 +1,12 @@
 import "./App.css";
-import { DataPersonalForm } from "./components";
+import { DataPersonalForm, Info, Layout } from "./components";
 
 function App() {
   return (
-    <>
+    <Layout>
+      <Info />
       <DataPersonalForm />
-    </>
+    </Layout>
   );
 }
 
